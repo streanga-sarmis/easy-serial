@@ -4,4 +4,5 @@ A work in progress cross-platform serial reader/writer, also supports USART for 
 
 ## How to use
 
-Coming soon...
+Build test: ```gcc -o a test.c src/*.c -Iinclude -g```
+Build easy-serial for your avr project: Coming soon
