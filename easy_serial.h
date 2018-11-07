@@ -36,7 +36,7 @@ void serial_close(serial_t* serial);
 
 #include <avr/io.h>
 
-#define BAUDRATE 57600 // I use a arduino nano wth an ATmega328p au, so it can handle it
+#define BAUDRATE 57600 // I use an arduino nano with an ATmega328p au, so it can handle it
 #define BAUDRATE_HELPER (((F_CPU / (BAUDRATE * 16UL))) - 1)
 
 static inline void serial_usart_init(){
